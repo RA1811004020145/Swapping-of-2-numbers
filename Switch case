@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main()
+{
+int n,x;
+char ch;
+printf(“P1=Pizza\nB2=Burger\nPa3=Pasta\nF4=French fries\nS5=Sandwich\n”);
+printf(“Enter your order \nplease Enter the choice 1,2,3,4,5\n”);
+
+scanf(“%c”,&ch);
+
+switch(ch)
+{
+case ‘P’:
+scanf(“%d”,&n);
+x= n*239;
+printf(“Pizza=Rs %d”,x);
+
+case ‘B’:
+scanf(“%d”,&n);
+x= n*129;
+printf(“Burger=Rs %d”,x);
+
+case ‘Pa’:
+scanf(“%d”,&n);
+x= n*179;
+printf(“Pasta=Rs %d”,x);
+
+case ‘F’:
+scanf(“%d”,&n);
+x= n*99;
+printf(“French Fries=Rs %d”,x);
+
+case ‘S’:
+scanf(“%d”,&n);
+x= n*149;
+printf(“Sandwich=Rs %d”,x);
+}
+}
+ 

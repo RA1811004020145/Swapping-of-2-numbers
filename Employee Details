@@ -1,0 +1,28 @@
+#include<stdio.h>
+struct emp{
+int eno;
+char ename[20];
+float esal;
+};
+int main(){
+int j;
+struct emp e;
+printf("Enter Employee detail \n");
+printf("Emp Name. :-\t");
+scanf("%d",&e.ename);
+printf("Emp Age :-\t");
+scanf("%d",&e.eage);
+printf("Emp Phonenum :-\t");
+scanf("%d",&e.enum);
+printf("Emp salary :-\t");
+scanf("%f",&e.esal);
+printf("\n \n");
+
+printf("Enter 1 to print");
+scanf("%d",&j);
+if(j==1){
+printf("Employee details are \n \n Employee name:- \t %s \n Employee age:- \t %d \n Employee Phonenum %d \n Employee salary:- \t %f",e.ename,e.eno,e.esal);
+}
+else
+exit(1);
+}
